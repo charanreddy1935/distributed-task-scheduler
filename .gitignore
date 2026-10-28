@@ -1,0 +1,34 @@
+﻿# Maven / Java
+target/
+*.class
+*.log
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local tooling / generated runtime data
+.freebuff/
+
+# Python cache
+__pycache__/
+*.pyc
